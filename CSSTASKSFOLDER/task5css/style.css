@@ -1,0 +1,80 @@
+.sidenav {
+  width: 200px;
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding-right: 50px;
+}
+
+.nav-item {
+  display: block;
+  padding: 10px;
+
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+.nav-item:hover {
+  background-color: #0056b3;
+}
+.body4 {
+  background-color: yellow;
+}
+.heading {
+  text-align: left;
+  color: purple;
+}
+.division {
+  margin-left: 80px;
+  color: purple;
+}
+.division2 {
+  margin-left: 80px;
+  margin-right: 80px;
+  color: purple;
+  white-space: nowrap;
+  position: relative;
+  overflow: hidden;
+  border: none;
+}
+.division2::after {
+  content: "----------------------------------------------------------------------------------------------";
+  letter-spacing: 6px;
+}
+.black-rectangle {
+  width: 2%; /* Make it full-width */
+  height: 38px; /* Adjust the height as needed */
+  background-color: #000; /* Black background color */
+  position: absolute; /* Fix it to the top */
+  top: 19px;
+  left: 194.5px;
+  z-index: 1; /* Ensure it's on top of other elements */
+}
+.black-rectangle1 {
+  width: 2%; /* Make it full-width */
+  height: 38px; /* Adjust the height as needed */
+  background-color: #000; /* Black background color */
+  position: absolute; /* Fix it to the top */
+  top: 68px;
+  left: 194.5px;
+  z-index: 1; /* Ensure it's on top of other elements */
+}
+.black-rectangle2 {
+  width: 2%; /* Make it full-width */
+  height: 38px; /* Adjust the height as needed */
+  background-color: #000; /* Black background color */
+  position: absolute; /* Fix it to the top */
+  top: 116px;
+  left: 194.5px;
+  z-index: 1; /* Ensure it's on top of other elements */
+}
+.black-rectangle3 {
+  width: 2%; /* Make it full-width */
+  height: 38px; /* Adjust the height as needed */
+  background-color: #000; /* Black background color */
+  position: absolute; /* Fix it to the top */
+  top: 163.5px;
+  left: 194.5px;
+  z-index: 1; /* Ensure it's on top of other elements */
+}

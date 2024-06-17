@@ -1,0 +1,27 @@
+a {
+  display: inline-block;
+  margin-right: 10px;
+  position: relative;
+}
+a::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: -10px;
+  width: 1px;
+  background-color: #000;
+}
+.link-container {
+  border: 1px solid black;
+  height: 100px;
+  padding-left: 30px;
+  box-shadow: 0cqh;
+  background-color: lightgray;
+  margin-top: 220px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 6px 10px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+.new {
+  background-color: white;
+}

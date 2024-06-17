@@ -1,0 +1,105 @@
+.table1 {
+  background-color: aquamarine;
+  width: 100%;
+  border: black solid;
+  margin-top: 100px;
+}
+th,
+td {
+  border: 2px solid black;
+  border-radius: 10px;
+}
+.square {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  margin: 10px;
+  border: 2px solid yellowgreen;
+  border-radius: 5px;
+  float: left;
+  margin-left: 400px;
+}
+.square1 {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  margin: 10px;
+  border: 2px solid yellowgreen;
+  border-radius: 15px;
+  float: left;
+}
+.square2 {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  margin: 10px;
+  border: 2px solid yellowgreen;
+  border-radius: 25px;
+  float: left;
+}
+.square3 {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  margin: 10px;
+  border: 2px solid yellowgreen;
+  border-radius: 15px;
+  float: left;
+  margin-left: 400px;
+}
+.square4 {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  margin: 10px;
+  border: 2px solid yellowgreen;
+  border-radius: 5px;
+  float: left;
+}
+.square5 {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  margin: 10px;
+  border: 2px solid yellowgreen;
+  border-radius: 25px;
+  float: left;
+}
+.square6 {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  margin: 10px;
+  border: 2px solid yellowgreen;
+  border-radius: 100px;
+  float: left;
+  margin-left: 400px;
+}
+.square7 {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  margin: 10px;
+  border: 2px solid yellowgreen;
+  border-radius: 5px;
+  float: left;
+}
+.square8 {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  margin: 10px;
+  border: 2px solid yellowgreen;
+  border-radius: 5px;
+  float: left;
+}
+.square9 {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  margin: 10px;
+  border: 2px solid yellowgreen;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 20px;
+  float: left;
+}

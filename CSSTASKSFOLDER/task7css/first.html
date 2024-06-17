@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task7css</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form>
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Your Name"
+            required
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Your Email"
+            required
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="password">Password:</label>
+          <input
+            type="password"
+            id="password"
+            name="password"
+            placeholder="Your Password"
+            required
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="phone">Phone Number:</label>
+          <input
+            type="tel"
+            id="phone"
+            name="phone"
+            placeholder="Your Phone Number"
+            required
+          />
+        </div>
+
+        <div class="form-group">
+          <label class="gender">Gender:</label>
+          <input type="radio" id="male" name="gender" value="male" />
+          <label for="male">Male</label>
+          <input type="radio" id="female" name="gender" value="female" />
+          <label for="female">Female</label>
+          <input type="radio" id="other" name="gender" value="other" />
+          <label for="other">Others</label>
+        </div>
+
+        <div class="form-group">
+          <label for="language">Language:</label>
+          <select id="language" name="language">
+            <option value="">Select Language</option>
+            <option value="english">English</option>
+            <option value="spanish">Spanish</option>
+            <option value="french">French</option>
+            <!-- Add more languages here -->
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="zip">Zip Code:</label>
+          <input
+            type="text"
+            id="zip"
+            name="zip"
+            placeholder="Your Zip Code"
+            required
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="about">About:</label>
+          <textarea
+            id="about"
+            name="about"
+            placeholder="Write about yourself..."
+          ></textarea>
+        </div>
+
+        <button class="button2" type="submit"><b>Register</b></button>
+      </form>
+    </div>
+  </body>
+</html>

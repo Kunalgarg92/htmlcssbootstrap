@@ -1,0 +1,27 @@
+.head1 {
+  color: white;
+  font-weight: bold;
+  background-color: green;
+  width: 100%;
+  text-align: left;
+  border-color: green;
+  margin-top: 40px;
+}
+body {
+  padding-top: 90px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid grey;
+}
+
+th,
+td {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+}
+.head2 {
+  background-color: lightgrey;
+}
