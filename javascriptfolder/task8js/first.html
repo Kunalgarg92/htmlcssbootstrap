@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 class="heading">Registration Form</h1>
+    <form id="registrationForm">
+      <table>
+        <tr>
+          <td class="label2"><label for="firstname">First Name</label></td>
+          <td>
+            <input class="input1" type="text" id="firstname" name="firstname" />
+            <span class="error-message" id="firstnameError">Poor</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="label2"><label for="lastname">Last Name</label></td>
+          <td>
+            <input class="input1" type="text" id="lastname" name="lastname" />
+            <span class="error-message" id="lastnameError">Poor</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="label2"><label for="email">Email</label></td>
+          <td>
+            <input class="input1" type="email" id="email" name="email" />
+            <span class="error-message" id="emailError">Poor</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="label2"><label for="password">Password</label></td>
+          <td>
+            <input
+              class="input1"
+              type="password"
+              id="password"
+              name="password"
+            />
+            <span class="error-message" id="passwordError">Poor</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="label2">
+            <label for="confirmpassword">Re-enter Password</label>
+          </td>
+          <td>
+            <input
+              class="input1"
+              type="password"
+              id="confirmpassword"
+              name="confirmpassword"
+            />
+            <span class="error-message" id="confirmpasswordError"
+              >Poor OR Mismatch</span
+            >
+          </td>
+        </tr>
+        <tr>
+          <td class="label2"><label>Gender</label></td>
+          <td>
+            <input type="radio" id="male" name="gender" value="male" />
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female" />
+            <label for="female">Female</label>
+          </td>
+        </tr>
+        <tr>
+          <td class="label2"><label for="age">Age</label></td>
+          <td>
+            <input class="input1" type="text" id="age" name="age" />
+            <span class="error-message" id="ageError">Poor</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="label2"><label for="phonenumber">Phone number</label></td>
+          <td>
+            <input
+              class="input1"
+              type="text"
+              id="phonenumber"
+              name="phonenumber"
+            />
+            <span class="error-message" id="phoneError">Poor</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="label2"><label for="address">Address</label></td>
+          <td>
+            <textarea
+              class="input1"
+              id="address"
+              name="address"
+              rows="4"
+            ></textarea>
+            <span class="error-message" id="addressError">Poor</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="label2"><label for="state">State</label></td>
+          <td>
+            <input class="input1" type="text" id="state" name="state" />
+            <span class="error-message" id="stateError">Poor</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="label2"><label for="country">Country</label></td>
+          <td>
+            <select id="country" name="country">
+              <option value="India">India</option>
+              <option value="USA">USA</option>
+              <option value="UK">UK</option>
+              <option value="Canada">Canada</option>
+              <option value="Australia">Australia</option>
+              <option value="New Zealand">New Zealand</option>
+              <option value="Singapore">Singapore</option>
+              <option value="Malaysia">Malaysia</option>
+              <option value="China">China</option>
+              <option value="Japan">Japan</option>
+              <option value="Russia">Russia</option>
+              <option value="France">France</option>
+              <option value="Germany">Germany</option>
+              <option value="Italy">Italy</option>
+              <option value="Spain">Spain</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td class="label2"><label>Languages Known</label></td>
+          <td>
+            <input
+              type="checkbox"
+              id="english"
+              name="languages"
+              value="English"
+            />
+            <label for="english">English</label>
+            <input
+              type="checkbox"
+              id="kannada"
+              name="languages"
+              value="Kannada"
+            />
+            <label for="kannada">Kannada</label>
+            <input type="checkbox" id="hindi" name="languages" value="Hindi" />
+            <label for="hindi">Hindi</label>
+            <input
+              type="checkbox"
+              id="telugu"
+              name="languages"
+              value="Telugu"
+            />
+            <label for="telugu">Telugu</label>
+          </td>
+        </tr>
+        <tr>
+          <td class="checkbox" colspan="2">
+            <input type="checkbox" id="declaration" required />
+            <label for="declaration"
+              >Hereby I declare all the given details are true</label
+            >
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2" class="word">
+            <label>Login to <a href="ethnus.com"> Ethnus </a> website</label>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <button type="submit">Register</button>
+          </td>
+        </tr>
+      </table>
+    </form>
+    <script src="first.js"></script>
+  </body>
+</html>

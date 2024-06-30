@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form id="registrationForm">
+      <table>
+        <tr>
+          <td class="label2"><label for="firstname"> Name</label></td>
+          <td>
+            <input class="input1" type="text" id="firstname" name="firstname" />
+            <span class="error-message" id="firstnameError"
+              >This field is required</span
+            >
+          </td>
+        </tr>
+        <tr>
+          <td class="label2"><label for="email">Email</label></td>
+          <td>
+            <input class="input1" type="email" id="email" name="email" />
+            <span class="error-message" id="emailError"
+              >A valid Email is required</span
+            >
+          </td>
+        </tr>
+        <tr>
+          <td class="label2"><label for="password">Website</label></td>
+          <td>
+            <input class="input1" type="text" id="password" name="password" />
+            <span class="error-message" id="passwordError"
+              >A valid URL is required
+            </span>
+          </td>
+        </tr>
+        <tr>
+          <td class="label2"><label for="address">Message : </label></td>
+          <td>
+            <textarea
+              class="input1"
+              id="address"
+              name="address"
+              rows="4"
+            ></textarea>
+            <span class="error-message" id="addressError"
+              >This field is required</span
+            >
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <button class="submit">Submit</button>
+          </td>
+        </tr>
+      </table>
+    </form>
+    <script src="first.js"></script>
+  </body>
+</html>

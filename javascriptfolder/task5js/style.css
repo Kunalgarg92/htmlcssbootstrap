@@ -1,0 +1,51 @@
+.heading {
+  text-align: center;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 25px;
+}
+th,
+td {
+  padding: 8px;
+}
+.input1 {
+  width: 100%;
+}
+.word {
+  text-align: right;
+}
+.label2 {
+  font-weight: bold;
+  text-align: center;
+}
+body {
+  background-color: #6add96;
+}
+.checkbox {
+  padding-left: 120px;
+  padding-top: 20px;
+}
+
+.error-message {
+  color: red;
+  font-size: 0.8em;
+  display: none;
+}
+/* CSS for error state */
+.input-error {
+  border: 1px solid red;
+  background-color: #ffeeee;
+}
+
+.error-message {
+  display: block;
+  color: red;
+  font-size: 12px;
+  margin-top: 4px;
+}
+.submit {
+  margin-left: 700px;
+}
